@@ -56,7 +56,10 @@ function App() {
           key={product.id}
           product={product}
           onRatingSubmit={handleRatingSubmit}
-        />
+        
+          // product.id
+        /> 
+
       ))}
     </div>
   );
